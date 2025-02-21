@@ -12,7 +12,7 @@ def get_geojson():
     conn = psycopg2.connect(
         dbname="lab1",
         user="postgres",
-        password="postgres",
+        password="<password>",
         host="34.133.43.30",
         port="5432"
     )
